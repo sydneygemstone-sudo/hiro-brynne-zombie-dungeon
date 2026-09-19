@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+*.log
+public/js/three.core.js
+public/js/three.webgpu.js
+public/js/three.webgpu.nodes.js
+public/js/three.tsl.js
+public/js/three.cjs

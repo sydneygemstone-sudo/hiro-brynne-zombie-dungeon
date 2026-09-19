@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Hiro & Brynne's Zombie Dungeon — Single Player</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="canvas-container"></div>
+  <div id="damage-overlay"></div>
+  <div id="heal-overlay"></div>
+  <div id="crosshair"></div>
+
+  <div id="hud">
+    <div class="top-bar">
+      <div class="player-card">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+          <div class="role-badge" id="hud-role-badge">
+            <span id="hud-role-name">HERO</span>
+          </div>
+          <button class="btn-small" id="btn-switch-role">🔁 Swap</button>
+        </div>
+        <div class="hp-container">
+          <div class="hp-bar-bg"><div class="hp-bar-fill" id="hud-hp-fill"></div></div>
+          <div class="hp-text" id="hud-hp-text">100/100</div>
+        </div>
+        <div class="item-badges">
+          <div class="badge" id="hud-weapon">👊 Fist (12)</div>
+          <div class="badge" id="hud-bandages">🩹 x1</div>
+          <div class="badge" id="hud-key">🔒 Key</div>
+        </div>
+      </div>
+
+      <div class="objective-card" id="hud-objective-card">
+        <div class="objective-title">SINGLE PLAYER QUEST</div>
+        <div class="objective-text" id="hud-objective-text">🗝️ Find the Crypt Key!</div>
+      </div>
+
+      <div class="team-card">
+        <div class="teammate-info" id="hud-teammate">🎮 Single Player</div>
+        <div class="team-actions">
+          <button class="btn-small" id="btn-fullscreen">⛶ Full</button>
+          <button class="btn-small" id="btn-restart">🔄 Restart</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="desktop-hint">WASD / Arrow Keys Move | Drag Mouse Look | Space / Click Attack | E Heal</div>
+  </div>
+
+  <div id="touch-controls">
+    <div id="joystick-touch-zone"></div>
+    <div id="joystick-container"><div id="joystick-knob"></div></div>
+    <div id="touch-look-zone"></div>
+    <div id="action-buttons">
+      <button class="touch-btn heal-btn" id="btn-heal">
+        <span>🩹</span><div id="btn-heal-label">HEAL (1)</div>
+      </button>
+      <button class="touch-btn attack-btn" id="btn-attack">
+        <span>⚔️</span><div>ATTACK</div>
+      </button>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="gameover-modal" style="display: none;">
+    <div class="modal-content">
+      <div class="modal-title" id="gameover-title">MISSION COMPLETE</div>
+      <p class="modal-desc" id="gameover-desc">Defeat the Zombie King and escape with the treasure.</p>
+      <button class="btn-large" id="btn-modal-restart">PLAY AGAIN (RESTART)</button>
+    </div>
+  </div>
+
+  <script src="js/localSocket.js"></script>
+  <script src="js/bundle.js"></script>
+</body>
+</html>

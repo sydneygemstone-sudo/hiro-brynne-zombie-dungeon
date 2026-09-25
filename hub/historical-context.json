@@ -1,0 +1,68 @@
+{
+  "requirements": [
+    [
+      [
+        "保留明确的地牢冒险闭环",
+        "Keep a clear dungeon-adventure loop"
+      ],
+      [
+        "保留第一人称、僵尸追击、战斗、剑、绷带、钥匙、地穴门、Boss、宝藏与逃生。",
+        "Retain first-person exploration, zombie pursuit, combat, sword, bandages, key, crypt gate, boss, treasure and escape."
+      ]
+    ],
+    [
+      [
+        "按真实反馈修操作与节奏",
+        "Repair controls and pacing from actual feedback"
+      ],
+      [
+        "已有反馈包括迷宫太短、可互动少、朝向不对、速度太快；保留打击红色反馈与胜利时刻。",
+        "Existing feedback names short maze, too few interactions, wrong facing and excessive speed; retain hit feedback and the victory moment."
+      ]
+    ],
+    [
+      [
+        "合作要有作用，而非只在同一地图",
+        "Cooperation must matter beyond a shared map"
+      ],
+      [
+        "双人iPad合作是既有目标。新版先提出少量能被验证的合作选择；救援、分工或共享资源仍需课堂选定，不全量自动加入。",
+        "Two-iPad cooperation is an existing goal. Propose a small testable cooperative choice; rescue, roles or shared resources remain class decisions, not automatic additions."
+      ]
+    ],
+    [
+      [
+        "先改善决策与引导，再做完整资产",
+        "Improve decisions and guidance before full assets"
+      ],
+      [
+        "旧Hub指出重复“走路然后打怪”的问题。暗氛围、环境声和音乐是方向，但本阶段只需足够支持MVP，不擅自进入完整音画制作。",
+        "The old HUB identifies repetitive walk-and-fight play. Dark atmosphere/music/environment sound are directions; only MVP-supporting presentation belongs in this pass."
+      ]
+    ]
+  ],
+  "source_ref": "c9724ace8b1e26945d128bf6697ecfde865192da",
+  "history_versions": [
+    [
+      "9085281",
+      "2026-09-19",
+      [
+        "V2.1单机与LAN源码归档",
+        "V2.1 solo and LAN archive"
+      ]
+    ],
+    [
+      "c9724ac",
+      "2026-09-19",
+      [
+        "家长学习Hub与历史评语",
+        "Parent learning HUB and historical assessment"
+      ]
+    ]
+  ],
+  "old_playability_assessment": {
+    "score": 5.2,
+    "scale": 10,
+    "scope": "Historical playability opinion, not current AI rubric"
+  }
+}

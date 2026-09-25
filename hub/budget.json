@@ -1,0 +1,95 @@
+{
+  "budget_aud": 100,
+  "api_equivalent_aud": 36,
+  "range": [
+    18,
+    66
+  ],
+  "recorded_estimate": 16,
+  "planned_reserve": 20,
+  "actual_metered_aud": null,
+  "items": [
+    {
+      "title": [
+        "原MVP、V2与V2.1修订",
+        "Original MVP, V2 and V2.1 revisions"
+      ],
+      "aud": 10,
+      "range": [
+        5,
+        20
+      ],
+      "note": [
+        "没有原计量账单，依据旧Hub范围和两次提交作工具等值估算。",
+        "No original metered bill; tool-equivalent estimate from prior HUB scope and two commits."
+      ],
+      "kind": "estimate"
+    },
+    {
+      "title": [
+        "原家长学习HUB",
+        "Prior parent learning HUB"
+      ],
+      "aud": 2,
+      "range": [
+        1,
+        4
+      ],
+      "note": [
+        "独立历史整理项，与游戏制作分开避免混算。",
+        "Historical documentation separate from game production."
+      ],
+      "kind": "estimate"
+    },
+    {
+      "title": [
+        "本次HUB适配与重制入口",
+        "This HUB adaptation and remake entries"
+      ],
+      "aud": 4,
+      "range": [
+        2,
+        6
+      ],
+      "note": [
+        "工具等值规划估算，不是付款账单。",
+        "Tool-equivalent planning estimate, not an invoice."
+      ],
+      "kind": "estimate"
+    },
+    {
+      "title": [
+        "Opus独立重制规划预留",
+        "Opus independent remake reserve"
+      ],
+      "aud": 10,
+      "range": [
+        5,
+        18
+      ],
+      "kind": "reserve",
+      "note": [
+        "尚未执行；仅为制作前预算草案，可随锁定范围调整，不计作已消耗。",
+        "Not executed; provisional scope-dependent reservation, not consumed usage."
+      ]
+    },
+    {
+      "title": [
+        "Astra独立重制规划预留",
+        "Astra independent remake reserve"
+      ],
+      "aud": 10,
+      "range": [
+        5,
+        18
+      ],
+      "kind": "reserve",
+      "note": [
+        "尚未执行；仅为制作前预算草案，可随锁定范围调整，不计作已消耗。",
+        "Not executed; provisional scope-dependent reservation, not consumed usage."
+      ]
+    }
+  ],
+  "model": "bounded historical estimates plus explicit future reserves",
+  "total_tokens": null
+}

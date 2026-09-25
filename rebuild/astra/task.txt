@@ -1,0 +1,114 @@
+Hiro 与 Brynne：僵尸地牢 / Hiro & Brynne: Zombie Dungeon
+
+Project: hiro-brynne-zombie-dungeon; branch: astra; brief revision: r6-preclass-20260926
+
+Source baseline: c9724ace8b1e26945d128bf6697ecfde865192da
+
+Output only inside rebuild/astra/; do not overwrite the baseline or other candidate.
+
+执行条件：这是一份课前任务草案。收到本轮课堂的明确制作指令后才执行；仅浏览或复制本页不算授权调用模型。
+
+Execution gate: this is a prepared brief. Execute only after the explicit classroom build instruction. Reading/copying it is not execution authorization.
+
+目标：按同一需求独立重制MVP；可以借鉴原需求和美术方向，不强制复用旧代码，不读取另一候选的未完成实现来冒充独立。
+
+Goal: independently rebuild the MVP against this shared brief. Reuse requirements, not mandatory legacy code. Do not copy the other candidate and call it independent.
+
+
+核心范围 / Core scope
+
+H-01 保留明确的地牢冒险闭环 / Keep a clear dungeon-adventure loop
+
+保留第一人称、僵尸追击、战斗、剑、绷带、钥匙、地穴门、Boss、宝藏与逃生。
+
+Retain first-person exploration, zombie pursuit, combat, sword, bandages, key, crypt gate, boss, treasure and escape.
+
+验收 / Acceptance: 从开局正常找到钥匙并完成Boss与逃生；死亡与重开也必须可恢复。 / Normally find the key, defeat the boss and escape; verify defeat/restart recovery too.
+
+H-02 按真实反馈修操作与节奏 / Repair controls and pacing from actual feedback
+
+已有反馈包括迷宫太短、可互动少、朝向不对、速度太快；保留打击红色反馈与胜利时刻。
+
+Existing feedback names short maze, too few interactions, wrong facing and excessive speed; retain hit feedback and the victory moment.
+
+验收 / Acceptance: 使用同一设备比较移动、敌人朝向、攻击反馈与首次任务理解。 / Compare movement, enemy facing, hit feedback and first-goal comprehension on the same device.
+
+H-03 合作要有作用，而非只在同一地图 / Cooperation must matter beyond a shared map
+
+双人iPad合作是既有目标。新版先提出少量能被验证的合作选择；救援、分工或共享资源仍需课堂选定，不全量自动加入。
+
+Two-iPad cooperation is an existing goal. Propose a small testable cooperative choice; rescue, roles or shared resources remain class decisions, not automatic additions.
+
+验收 / Acceptance: 说明两个人怎样互相影响结果；单人模式仍能独立完成核心流程。 / Explain how two players affect the outcome while solo can still complete the core loop.
+
+H-04 先改善决策与引导，再做完整资产 / Improve decisions and guidance before full assets
+
+旧Hub指出重复“走路然后打怪”的问题。暗氛围、环境声和音乐是方向，但本阶段只需足够支持MVP，不擅自进入完整音画制作。
+
+The old HUB identifies repetitive walk-and-fight play. Dark atmosphere/music/environment sound are directions; only MVP-supporting presentation belongs in this pass.
+
+验收 / Acceptance: 玩家能指出一个有代价的选择及其反馈；正式故事、视觉、音乐、音效、配音留在第二阶段。 / A player can identify one meaningful trade-off and feedback; full story/art/music/sound/voice belong to phase 2.
+
+
+不做项 / Exclusions
+
+不自动加入全部roguelike升级、随机地图、商店或所有合作机制；不把现有LAN共玩宣称为已部署公网联机。
+
+Do not automatically add every roguelike upgrade, random map, shop or co-op mechanic; existing LAN play is not a deployed public multiplayer service.
+
+
+共同验收 / Shared acceptance
+
+首次进入能理解目标并完成核心动作；不靠调试开关跳过正常流程。
+
+A first-time player understands the goal and performs the core actions without debug shortcuts.
+
+iPad无键盘、键盘无鼠标两种输入分别验收；拖出、取消、旋转后不粘键。
+
+Verify keyboard-free iPad and mouse-free keyboard play; release, cancellation and rotation must not leave movement stuck.
+
+中英切换按钮常驻，中文显示English、英文显示中文；不丢进度与表单内容。
+
+Persistent target-language button: English in Chinese, 中文 in English; preserve progress and form content.
+
+直接单机试玩、返回本作品HUB、独立存档与可重开；不能影响旧版或另一候选。
+
+Direct solo play, return to this HUB, independent saves and restart; do not alter the baseline or other candidate.
+
+源文件、实际用量或有依据的估算、测试结果及失败记录一并交回；不能把历史报告当本次测试。
+
+Return source, metered usage or explicit estimates, tests and failures; do not reuse historical reports as new acceptance.
+
+最终正常流程与实际设备测试通过后才冻结MVP；本轮不自动进入完整资产、销售和长期运营。
+
+Freeze the MVP only after normal-path/device acceptance; do not silently start full asset production, sales or long-term operations.
+
+
+需要课堂先对齐的变化 / Changes to align in class
+
+玩家每隔一小段时间，应在“战斗、绕路、消耗绷带、帮助伙伴”中做什么选择？
+
+What choices should recur between fighting, taking a detour, spending bandages and helping a teammate?
+
+双人玩应该在哪一个动作上明显优于单人？先选一个机制。
+
+Which one action should make co-op meaningfully different from solo? Choose one mechanism first.
+
+僵尸王应该考验躲避、时机还是配合？不只是增加血量。
+
+Should the Zombie King test dodging, timing or coordination, rather than just more health?
+
+
+预算 / Budget
+
+Existing project pool AUD 100; provisional reserve for this branch AUD 10. It is not already spent. Check the final locked scope before execution; do not silently exceed the pool.
+
+交付 / Delivery: index.html or explicit play entry; source; DELIVERY.json; QA.json with exact tested scope and failures; usage/cost basis; known gaps. Update rebuild/manifest.json only with verified paths and evidence. Never mark both models complete after producing one branch.
+
+评分由AI阅读实际成果和证据后给理据，不是教师打星；最终正常流程通过后才收敛定稿。
+
+AI assigns evidence-based version ratings after inspecting actual delivery. It is not a teacher grade. Freeze only after the final normal-path test.
+
+阶段一MVP之外的完整故事、美术、音乐音效配音资产和商店发布、长期运营仅列规划；没有额外授权不实施。
+
+Full story/art/music/sound/voice production and store/long-term operations are later phases, not silently included here.

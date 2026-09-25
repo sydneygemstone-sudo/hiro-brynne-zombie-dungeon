@@ -1,0 +1,176 @@
+{
+  "revision": "r6-preclass-20260926",
+  "reviewer_type": "AI",
+  "assessed_on": "2026-09-25",
+  "rubric": [
+    {
+      "id": "loop",
+      "name": [
+        "核心玩法与需求对齐",
+        "Core loop and requirements"
+      ],
+      "max": 30
+    },
+    {
+      "id": "usability",
+      "name": [
+        "可玩性、输入与引导",
+        "Playability, controls and guidance"
+      ],
+      "max": 25
+    },
+    {
+      "id": "reliability",
+      "name": [
+        "稳定性与测试证据",
+        "Reliability and test evidence"
+      ],
+      "max": 20
+    },
+    {
+      "id": "presentation",
+      "name": [
+        "MVP 视听反馈与一致性",
+        "MVP audiovisual feedback and coherence"
+      ],
+      "max": 15
+    },
+    {
+      "id": "recoverability",
+      "name": [
+        "版本可追溯与可交付性",
+        "Traceability and recoverability"
+      ],
+      "max": 10
+    }
+  ],
+  "reviews": [
+    {
+      "id": "legacy-v21",
+      "name": [
+        "现有基线 · Zombie Dungeon V2.1",
+        "Existing baseline · Zombie Dungeon V2.1"
+      ],
+      "reviewer_type": "AI",
+      "reviewer": "ChatGPT",
+      "review_kind": "authored_evidence_based_judgment",
+      "scope": "existing MVP baseline",
+      "source_ref": "c9724ace8b1e26945d128bf6697ecfde865192da",
+      "points": [
+        21,
+        15,
+        12,
+        9,
+        7
+      ],
+      "reasons": [
+        [
+          "已有钥匙、门、Boss与逃生闭环，玩法选择与成长仍不足。",
+          "Key/gate/boss/escape loop exists; choice and progression remain limited."
+        ],
+        [
+          "触屏与单机入口具备，原体验问题需要新版对照。",
+          "Touch and solo entry exist; previous experience issues need remake comparisons."
+        ],
+        [
+          "源码可读、历史有测试自述，但原完整报告未同仓保留。",
+          "Readable source and historical test claims exist, but the full raw report is not retained in the same repository."
+        ],
+        [
+          "气氛和打击反馈支持原型；房间变化和完整音画仍不足。",
+          "Atmosphere/hit feedback support the prototype; room variation and full audiovisual assets remain limited."
+        ],
+        [
+          "单机与LAN接口分离，版本可追溯；重制的发布证据尚不存在。",
+          "Solo/LAN interfaces are separated and history traceable; remake release evidence does not yet exist."
+        ]
+      ],
+      "total": 64,
+      "stars": 3.2,
+      "strength": [
+        "目标、战斗高潮和逃生结局能组成一个可演示流程。",
+        "Goal, combat climax and escape ending form a demonstrable loop."
+      ],
+      "risk": [
+        "清单完成并不等于有趣；历史5.2/10为旧口径，新AI分数仅评MVP功能与证据。",
+        "Checklist completion is not enjoyment; historical 5.2/10 uses a different rubric, while the new AI rating assesses MVP function/evidence."
+      ],
+      "next_test": [
+        "正常通关并记录选择、失败、恢复与两人协作差异，再评价重制候选。",
+        "Play through normally and record choices, failure/recovery and co-op differences before rating remake candidates."
+      ],
+      "evidence": [
+        "H-OLDHUB",
+        "H-SOLO",
+        "H-LOCAL"
+      ],
+      "final_device_acceptance": false
+    }
+  ],
+  "sources": {
+    "H-OLDHUB": {
+      "path": "index.html",
+      "source_ref": "c9724ace8b1e26945d128bf6697ecfde865192da",
+      "sha256": "930594a7d2d3cb4ec8cf69010a5121f49c5ebde3295c60dcb3683f07080614e8",
+      "href": "https://github.com/sydneygemstone-sudo/hiro-brynne-zombie-dungeon/blob/c9724ace8b1e26945d128bf6697ecfde865192da/index.html",
+      "title": [
+        "index.html",
+        "index.html"
+      ]
+    },
+    "H-SOLO": {
+      "path": "public/singleplayer.html",
+      "source_ref": "c9724ace8b1e26945d128bf6697ecfde865192da",
+      "sha256": "82cc9f36987aeabb0bf917083680f91a28ffc8fa0f4043f084382eafaf737631",
+      "href": "https://github.com/sydneygemstone-sudo/hiro-brynne-zombie-dungeon/blob/c9724ace8b1e26945d128bf6697ecfde865192da/public/singleplayer.html",
+      "title": [
+        "public/singleplayer.html",
+        "public/singleplayer.html"
+      ]
+    },
+    "H-LOCAL": {
+      "path": "public/js/localSocket.js",
+      "source_ref": "c9724ace8b1e26945d128bf6697ecfde865192da",
+      "sha256": "de2d7c188bf78de9ad5f785e97b917c59372f8af8660d3c7dc4be80a82269d53",
+      "href": "https://github.com/sydneygemstone-sudo/hiro-brynne-zombie-dungeon/blob/c9724ace8b1e26945d128bf6697ecfde865192da/public/js/localSocket.js",
+      "title": [
+        "public/js/localSocket.js",
+        "public/js/localSocket.js"
+      ]
+    },
+    "H-GAME": {
+      "path": "public/js/game.js",
+      "source_ref": "c9724ace8b1e26945d128bf6697ecfde865192da",
+      "sha256": "f7e948e75dc5caf15e93056778935a9ef7ec5fb54b29901312c156b54b4fd8e8",
+      "href": "https://github.com/sydneygemstone-sudo/hiro-brynne-zombie-dungeon/blob/c9724ace8b1e26945d128bf6697ecfde865192da/public/js/game.js",
+      "title": [
+        "public/js/game.js",
+        "public/js/game.js"
+      ]
+    },
+    "H-SERVER": {
+      "path": "server.js",
+      "source_ref": "c9724ace8b1e26945d128bf6697ecfde865192da",
+      "sha256": "f06aaee71bb2129729d591ff300e7d5bf9a56312b01bc86768fc91b13676cd78",
+      "href": "https://github.com/sydneygemstone-sudo/hiro-brynne-zombie-dungeon/blob/c9724ace8b1e26945d128bf6697ecfde865192da/server.js",
+      "title": [
+        "server.js",
+        "server.js"
+      ]
+    },
+    "PREP": {
+      "path": "hub/preparation.json",
+      "source_ref": null,
+      "sha256": null,
+      "href": "preparation.json",
+      "title": [
+        "本轮准备清单",
+        "This preparation manifest"
+      ]
+    }
+  },
+  "future_candidates_unrated": [
+    "remake-opus",
+    "remake-astra"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "revision": "r6-preclass-20260926",
+  "project": "hiro-brynne",
+  "repo": "hiro-brynne-zombie-dungeon",
+  "class_date": "2026-09-26",
+  "scope": "HUB adaptation and remake preparation only",
+  "status": "PREPARED_NOT_EXECUTED",
+  "template_ref": "ddb6d1f078e7013cfb9d082416a7083463b85cc6",
+  "source_ref": "c9724ace8b1e26945d128bf6697ecfde865192da",
+  "requirements_status": "Recovered baseline and preclass draft; classroom changes not yet supplied",
+  "branches": [
+    {
+      "model": "opus",
+      "status": "PLANNED_NOT_STARTED",
+      "output_dir": "rebuild/opus/",
+      "play_url": null,
+      "ai_score": null,
+      "task_file": "opus/task.txt"
+    },
+    {
+      "model": "astra",
+      "status": "PLANNED_NOT_STARTED",
+      "output_dir": "rebuild/astra/",
+      "play_url": null,
+      "ai_score": null,
+      "task_file": "astra/task.txt"
+    }
+  ],
+  "not_modified": "Existing gameplay, saves, classroom servers and unrelated projects; Naomi is excluded.",
+  "template_standard": "CLASSROOM-HUB-R5-20260923",
+  "template_lifecycle": {
+    "revision": "hub-r6-lifecycle-20260925",
+    "standard": "docs/hub-standard/R6-LIFECYCLE-AND-AI-REVIEW.md",
+    "scope": [
+      "martins-monster-quest/hub/",
+      "adventure-world/hub/"
+    ],
+    "preflight": "python3 scripts/hub-lifecycle/build.py; node scripts/hub-lifecycle/qa.cjs",
+    "no_fallback": "Do not restore single-stage total progress, placeholder human star grading or untyped merge arrows."
+  },
+  "template_files": {
+    "studio.js": "d65509cd37132f026e4a7836d91d288a528e89a99b8327d7e6063e644e241ed8",
+    "studio.css": "10474d980a37cba22bf1b11b932569a2d1ec6ce61e12802f0e0cb475bf2718aa",
+    "studio-r3.css": "25eebf6889fab91f12bf57f6bea1a613eb4c6ef8bfedd9ea602522ae7e99dc42",
+    "studio-r5.css": "7852c1b590305cda2f0fe4607cb57520b1724fd87d0a3ac994368cdb1cd19fd4",
+    "r6.css": "32ee7d77341e581bd753d416cfb932e9b7eb29eb6fcc188b6ad227d31d75c920",
+    "lifecycle.css": "3ecab3e63d5ea437d447f470c03be1e904a33f49903f73dd1bf14e75efc56d87"
+  },
+  "protected_game_files": {
+    "public/index.html": "0b79a691e300ed32691e1fa5478df7b1aaf0ea8d5d7d83ff5a900e32326cd6a8",
+    "public/singleplayer.html": "82cc9f36987aeabb0bf917083680f91a28ffc8fa0f4043f084382eafaf737631",
+    "public/css/style.css": "4e2c67fcfb2df06a810b9411901199b65c338c2931001f51685190feb9973a57",
+    "public/js/three.module.js": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+    "public/js/game.js": "f7e948e75dc5caf15e93056778935a9ef7ec5fb54b29901312c156b54b4fd8e8",
+    "public/js/bundle.js": "da46c3333bc2530ebe97bbe303eb60305e959b94971d9aefd2c641b3b52393a7",
+    "public/js/models.js": "1195d807ec8adee1616777c7cbdec6095c743e19909df9717a02031dffe54234",
+    "public/js/localSocket.js": "de2d7c188bf78de9ad5f785e97b917c59372f8af8660d3c7dc4be80a82269d53",
+    "public/js/audio.js": "f6f9a64ce3e472992db39614d80370e3dda23de4f83d70d54cbcae82bb03fe34",
+    "public/js/textures.js": "2c94a85f74e1e65bb8ba5acf613ae4e4bdd6f0e95951348ee8e648b21ed3ed3d",
+    "server.js": "f06aaee71bb2129729d591ff300e7d5bf9a56312b01bc86768fc91b13676cd78",
+    "package.json": "400d891969fad60c865040adc8155a8289308cec2270f844964299d300b63a74",
+    "package-lock.json": "b0253c8231459de2207836af132e0e2724fb5d4a3a44c8d38c483553e7f4947d"
+  },
+  "game_files_unchanged": true,
+  "new_game_implementations": 0,
+  "diagrams": [
+    "hub/lineage-lineage-zh.mmd",
+    "hub/lineage-lineage-en.mmd",
+    "hub/lineage-major-repairs-zh.mmd",
+    "hub/lineage-major-repairs-en.mmd"
+  ],
+  "budget_current_estimate": 16,
+  "budget_future_reserve": 20,
+  "public_site_directory": ".",
+  "privacy": "New summaries use first names only; no calendar times, surnames, contact details, private networks or raw chats are copied."
+}

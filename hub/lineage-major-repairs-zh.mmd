@@ -1,0 +1,14 @@
+flowchart TB
+  issue0["朝向不对 / 速度过快"]:::repair
+  fix0["V2针对控制与节奏修订"]:::archive
+  issue1["迷宫短 / 互动少"]:::repair
+  fix1["扩内容，但仍缺决策深度"]:::archive
+  issue2["LAN依赖服务端"]:::repair
+  fix2["V2.1本地事件适配单机"]:::archive
+  issue0 -->|"问题 → 针对修订"| fix0
+  issue1 -->|"问题 → 针对修订"| fix1
+  issue2 -->|"问题 → 针对修订"| fix2
+classDef archive fill:#253c43,stroke:#83a49e,color:#e6ecdd
+classDef repair fill:#4b392f,stroke:#ddab77,color:#f5e7d0
+classDef decision fill:#414930,stroke:#dfc681,color:#f5e7ba
+classDef pending fill:#17303a,stroke:#809da3,color:#cadbd4,stroke-dasharray:6 4

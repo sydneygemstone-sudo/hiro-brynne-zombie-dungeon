@@ -1,0 +1,46 @@
+{
+  "status": "LIVE_VERIFIED",
+  "revision": "r6-preclass-20260926",
+  "project": "hiro-brynne-zombie-dungeon",
+  "url": "https://sydneygemstone-sudo.github.io/hiro-brynne-zombie-dungeon/hub/",
+  "published_commit": "598b844d8e8ba2bea78f0e5d369969a102313a58",
+  "local_checks": 115,
+  "live_checks": 112,
+  "failures": [],
+  "checks": [
+    {
+      "path": "hub/index.html",
+      "ok": true,
+      "bytes": 999,
+      "sha256": "2c751e7fddbdac034000db30b1a991be7967ead7c3f44032a2b76c7e2ba83f6a"
+    },
+    {
+      "path": "hub/project.json",
+      "ok": true,
+      "bytes": 82432,
+      "sha256": "b0f992c35e4182e13700324b2921f0ab37fa523685a3e93290f616ae6046d65e"
+    },
+    {
+      "path": "hub/rebuild.html",
+      "ok": true,
+      "bytes": 1003,
+      "sha256": "9580afdaf16ac04e6bacb409da5247b7c8e18c447b134235fbb1c97d6ee29e1f"
+    },
+    {
+      "path": "shared/hub-r6/studio.js",
+      "ok": true,
+      "bytes": 65227,
+      "sha256": "79c06f903a84110676947b472a446e718fff459a6e9b8fde658b360e544f5353"
+    },
+    {
+      "path": "downloads/preclass-20260926.zip",
+      "ok": true,
+      "bytes": 2212297,
+      "sha256": "2a972e09b762194031bd8a119f3f330f2350e3c10b1047664c7f2afd5f882bd1"
+    }
+  ],
+  "remakes": "PLANNED_NOT_STARTED",
+  "existing_game_files_unchanged": true,
+  "naomi_excluded": true,
+  "checked_at_utc": "2026-09-25T12:38:07.627103+00:00"
+}
